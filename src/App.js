@@ -1,14 +1,14 @@
 import React from 'react'
+import Weather from './weather';
 
-function App() {
+
+const App = () => {
 return (
     <div>
-    <h1>
-        Hello Test
-    </h1>
-    
+    <h1>Henok's Weather Forcast App</h1>
+        <Weather/>
     </div>
 )
 }
 
-export default App
+export default App;
